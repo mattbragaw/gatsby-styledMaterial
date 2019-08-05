@@ -5,5 +5,12 @@
  */
 
 module.exports = {
-  /* Your site config here */
+  siteMetadata: {
+    title: `Starter Site`,
+  },
+  plugins: [
+    `gatsby-plugin-material-ui`,
+    `gatsby-plugin-styled-components`,
+    `gatsby-plugin-react-helmet`,
+  ],
 }
